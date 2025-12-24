@@ -2,20 +2,24 @@
 
 Website for the Movement Engineering Lab at Universidad Católica del Uruguay.
 
-## 🚀 GitHub Pages Deployment
+## 🎉 GitHub Pages Deployment Status: LIVE
 
-This site is configured to deploy automatically to GitHub Pages at:
-**https://ucumotionlab.github.io/labwebsite/**
+This site is deployed and accessible at:
+### **https://ucumotionlab.github.io/labwebsite/**
 
-### ⚠️ IMPORTANT: First-Time Setup Required
+✅ GitHub Actions workflow completed successfully  
+✅ Site deployed to GitHub Pages  
+✅ Configuration verified
 
-If you're seeing a 404 error, you need to enable GitHub Pages first:
+### 📱 Accessing the Site
 
-1. Go to [Repository Settings](https://github.com/UCUmotionlab/labwebsite/settings/pages)
-2. Under "Build and deployment", set **Source** to: **GitHub Actions**
-3. Click **Save**
+Visit: **[https://ucumotionlab.github.io/labwebsite/](https://ucumotionlab.github.io/labwebsite/)**
 
-The site will deploy automatically within a few minutes!
+> **Note**: If you get a 404 error, please check that GitHub Pages is enabled with "GitHub Actions" as the source in [Repository Settings → Pages](https://github.com/UCUmotionlab/labwebsite/settings/pages).
+
+### 🔄 Automatic Updates
+
+The site automatically redeploys whenever changes are pushed to the `main` branch. No manual intervention needed!
 
 ### 📝 Full Documentation
 
@@ -31,3 +35,10 @@ bundle exec jekyll serve
 ```
 
 Visit http://localhost:4000 to preview locally.
+
+## Verification
+
+Run the verification script to check if the site is accessible:
+```bash
+./verify-deployment.sh
+```
