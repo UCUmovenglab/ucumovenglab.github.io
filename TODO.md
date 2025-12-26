@@ -1,7 +1,7 @@
 # TODO
 
 ## Completed
-- [x] make sure this build in ucumovenglab.github.io now (which is the new name) - Already configured correctly
+- [x] make sure this builds at ucumovinglab.github.io - Updated all references
 - [x] logo in footer is too small, barely visible - Increased from 40px to 70px
 - [x] need pictures for team members - Downloaded from UCU investigadores portal
 - [x] homepage needs to be cleaner: a full list of publications is overwhelming - Limited to 5 with "See all" link

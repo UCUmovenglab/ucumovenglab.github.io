@@ -2,7 +2,7 @@
 
 Website for the Movement Engineering Lab at Universidad Católica del Uruguay.
 
-**Live site:** https://ucumovenglab.github.io
+**Live site:** https://ucumovinglab.github.io
 
 ## Features
 
