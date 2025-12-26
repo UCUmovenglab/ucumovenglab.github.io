@@ -1,0 +1,11 @@
+<div class="lang-switcher">
+  {% assign pages = site.pages | where: "ref", page.ref | sort: "lang" %}
+  {% for p in pages %}
+    {% if p.lang == page.lang %}
+      <span class="lang-current">{{ site.data.i18n[p.lang].lang_name }}</span>
+    {% else %}
+      <a href="{{ p.url | relative_url }}" class="lang-link">{{ site.data.i18n[p.lang].lang_name }}</a>
+    {% endif %}
+    {% unless forloop.last %}<span class="lang-sep">|</span>{% endunless %}
+  {% endfor %}
+</div>

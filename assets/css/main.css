@@ -150,6 +150,38 @@ nav a.active {
   cursor: pointer;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Language Switcher */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.lang-switcher .lang-current {
+  color: white;
+  font-weight: 600;
+}
+
+.lang-switcher .lang-link {
+  color: rgba(255,255,255,0.7);
+  transition: color 0.2s;
+}
+
+.lang-switcher .lang-link:hover {
+  color: white;
+}
+
+.lang-switcher .lang-sep {
+  color: rgba(255,255,255,0.4);
+}
+
 /* Footer */
 footer {
   background: var(--primary);

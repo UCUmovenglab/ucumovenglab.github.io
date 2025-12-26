@@ -1,16 +1,16 @@
 ---
-title: Contact
-nav_title: Contact
-lang: en
+title: Contacto
+nav_title: Contacto
+lang: es
 ref: contact
 nav:
   order: 3
-  tooltip: How to reach us
+  tooltip: Cómo contactarnos
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Contacto
 
-We would love to hear from you!
+¡Nos encantaría saber de usted!
 
 {%
   include button.html
@@ -27,7 +27,7 @@ We would love to hear from you!
 
 {% include section.html %}
 
-## Location
+## Ubicación
 
 Universidad Católica del Uruguay
 Facultad de Ingeniería y Tecnologías
@@ -36,6 +36,6 @@ Montevideo, Uruguay
 
 {% include section.html %}
 
-## Our Team
+## Nuestro Equipo
 
 {% include list.html data="members" component="portrait" filters="role: pi" %}

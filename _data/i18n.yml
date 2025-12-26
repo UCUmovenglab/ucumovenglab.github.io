@@ -1,0 +1,73 @@
+# UI translations for multilingual support
+
+en:
+  lang_name: "English"
+  lang_code: "en"
+
+  # Navigation
+  nav:
+    home: "Home"
+    research: "Research"
+    publications: "Publications"
+    team: "Team"
+    contact: "Contact"
+    blog: "News"
+
+  # Common UI
+  ui:
+    read_more: "Read more"
+    contact_us: "Contact Us"
+    join_us: "Join Us"
+    publications: "Publications"
+    search: "Search..."
+    results_found: "results found"
+    principal_investigators: "Principal Investigators"
+    graduate_students: "Graduate Students"
+    undergraduate_students: "Undergraduate Students"
+    alumni: "Alumni"
+    collaborators: "Collaborators"
+
+  # Roles
+  roles:
+    pi: "Principal Investigator"
+    phd: "PhD Student"
+    masters: "Master's Student"
+    undergrad: "Undergraduate"
+    postdoc: "Postdoc"
+    staff: "Staff"
+
+es:
+  lang_name: "Español"
+  lang_code: "es"
+
+  # Navigation
+  nav:
+    home: "Inicio"
+    research: "Investigación"
+    publications: "Publicaciones"
+    team: "Equipo"
+    contact: "Contacto"
+    blog: "Noticias"
+
+  # Common UI
+  ui:
+    read_more: "Leer más"
+    contact_us: "Contáctenos"
+    join_us: "Únase al equipo"
+    publications: "Publicaciones"
+    search: "Buscar..."
+    results_found: "resultados encontrados"
+    principal_investigators: "Investigadores Principales"
+    graduate_students: "Estudiantes de Posgrado"
+    undergraduate_students: "Estudiantes de Grado"
+    alumni: "Egresados"
+    collaborators: "Colaboradores"
+
+  # Roles
+  roles:
+    pi: "Investigador Principal"
+    phd: "Estudiante de Doctorado"
+    masters: "Estudiante de Maestría"
+    undergrad: "Estudiante de Grado"
+    postdoc: "Postdoctorado"
+    staff: "Personal"

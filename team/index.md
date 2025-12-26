@@ -1,13 +1,14 @@
 ---
-title: Team / Equipo
+title: Team
+nav_title: Team
+lang: en
+ref: team
 nav:
   order: 2
   tooltip: Meet our team
 ---
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
-
-El grupo de Ingeniería del Movimiento cuenta con dos investigadores principales y colaboradores en los grupos de Inteligencia Artificial, Microelectrónica, y Terapia Física, además de estudiantes de grado y posgrado.
 
 The Movement Engineering Lab has two principal investigators and collaborators from the Artificial Intelligence, Microelectronics, and Physical Therapy groups, as well as undergraduate and graduate students.
 
@@ -23,15 +24,11 @@ The Movement Engineering Lab has two principal investigators and collaborators f
 
 {% include list.html data="members" component="portrait" filters="role: phd, role: masters" %}
 
-<!-- TODO: Add graduate student profiles -->
-
 {% include section.html %}
 
 ## Undergraduate Students
 
 {% include list.html data="members" component="portrait" filters="role: undergrad" %}
-
-<!-- TODO: Add undergraduate student profiles -->
 
 {% include section.html %}
 
@@ -45,9 +42,9 @@ The Movement Engineering Lab has two principal investigators and collaborators f
 
 We collaborate closely with:
 
-- **Grupo de Inteligencia Artificial** - Computer vision and machine learning
-- **Grupo de Microelectrónica e IoT** - Electronic device development
-- **Grupo de Terapia Física** (Departamento de Ciencias de la Salud) - Clinical rehabilitation
+- **Artificial Intelligence Group** - Computer vision and machine learning
+- **Microelectronics and IoT Group** - Electronic device development
+- **Physical Therapy Group** (Health Sciences Department) - Clinical rehabilitation
 
 {% include section.html %}
 
@@ -55,6 +52,4 @@ We collaborate closely with:
 
 We are always looking for motivated students and researchers interested in movement science, biomedical engineering, and rehabilitation technologies.
 
-Siempre estamos buscando estudiantes e investigadores motivados interesados en ciencias del movimiento, ingeniería biomédica y tecnologías de rehabilitación.
-
-{% include button.html link="contact" text="Contact Us" icon="fa-solid fa-envelope" %}
+{% include button.html link="/contact" text="Contact Us" icon="fa-solid fa-envelope" %}

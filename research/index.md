@@ -1,5 +1,8 @@
 ---
-title: Research / Investigación
+title: Research
+nav_title: Research
+lang: en
+ref: research
 nav:
   order: 1
   tooltip: Our research lines
@@ -7,50 +10,40 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-El trabajo del grupo se centra en tres líneas principales de investigación:
+Our work focuses on three main research lines:
 
-## 1. Movimiento humano y su control
+## 1. Human Movement and Motor Control
 
-Estudiamos el movimiento humano, con foco en la locomoción y movimientos de relevancia deportiva, utilizando diversas herramientas para caracterizar comportamientos nominales o analizando patrones que puedan inferir anomalías funcionales. Empleamos electromiografía (EMG) para registrar la actividad muscular, sistemas portátiles basados en unidades de medición inercial (IMUs), y sistemas de captura de movimiento (MoCap) para la caracterización cinemática y dinámica.
+We study human movement, focusing on locomotion and sports-relevant movements, using various tools to characterize nominal behaviors or analyzing patterns that may infer functional anomalies. We use electromyography (EMG) to record muscle activity, portable systems based on inertial measurement units (IMUs), and motion capture systems (MoCap) for kinematic and dynamic characterization.
 
-Buscamos también comprender aspectos del control del movimiento por parte del sistema nervioso, investigando el papel de la información sensorial (visual, vestibular, propioceptiva) y las características de la actividad muscular, su coordinación, y adaptación.
+We also seek to understand aspects of movement control by the nervous system, investigating the role of sensory information (visual, vestibular, proprioceptive) and the characteristics of muscle activity, its coordination, and adaptation.
 
 {% include tags.html tags="motor control, biomechanics, EMG" %}
 
 {% include section.html %}
 
-## 2. Desarrollo de herramientas para la rehabilitación del movimiento
+## 2. Movement Rehabilitation Tools
 
-Buscamos desarrollar soluciones para la recuperación del movimiento deteriorado a causa de lesiones en el sistema nervioso central, como los accidentes cerebro-vasculares (ACVs). Abordamos esta problemática mediante dos estrategias complementarias:
+We develop solutions for recovering movement impaired by central nervous system injuries, such as strokes. We address this problem through two complementary strategies:
 
-- **Herramientas interactivas** para inducir plasticidad en el control neuromuscular proveyendo feedback relevante acerca de la actividad muscular propia a los pacientes, y fomentando el reclutamiento de patrones de coordinación muscular no normotípicos.
+- **Interactive tools** to induce plasticity in neuromuscular control by providing relevant feedback about patients' own muscle activity, and encouraging the recruitment of non-normotypical muscle coordination patterns.
 
-- **Dispositivos ortésicos avanzados** que, mediante sistemas de actuación controlada, ayudan a acelerar la rehabilitación o a facilitar el aprendizaje de movimientos coordinados.
+- **Advanced orthotic devices** that, through controlled actuation systems, help accelerate rehabilitation or facilitate the learning of coordinated movements.
 
-Esta línea se desarrolla en colaboración con el departamento de Ciencias de la Salud, grupo de Terapia Física.
+This line is developed in collaboration with the Health Sciences Department, Physical Therapy group.
 
 {% include tags.html tags="rehabilitation, stroke, biofeedback" %}
 
 {% include section.html %}
 
-## 3. Innovación en la digitalización del movimiento
+## 3. Movement Digitalization Innovation
 
-Desarrollamos tecnologías para la captura, registro y análisis del movimiento, con el objetivo dual de facilitar el acceso a las mismas y mejorar sus capacidades. Este desarrollo se organiza en tres áreas clave:
+We develop technologies for capturing, recording, and analyzing movement, with the dual goal of facilitating access and improving capabilities. This development is organized into three key areas:
 
-- **Captura de movimiento basada en visión por computadora:** En colaboración con el grupo de Inteligencia Artificial, desarrollamos sistemas de captura de movimiento empleando técnicas de visión automática y computación en el borde.
+- **Computer vision-based motion capture:** In collaboration with the Artificial Intelligence group, we develop motion capture systems using automatic vision techniques and edge computing.
 
-- **Desarrollo de dispositivos electrónicos innovadores:** Trabajamos junto con el grupo de Microelectrónica e IoT en la creación de dispositivos electrónicos con capacidades mejoradas para la digitalización del movimiento.
+- **Innovative electronic device development:** We work with the Microelectronics and IoT group on creating electronic devices with enhanced capabilities for movement digitalization.
 
-- **Procesamiento avanzado de datos:** Desarrollamos técnicas avanzadas para el análisis de señales de movimiento de diversas modalidades mediante modelos bayesianos, análisis en tiempo y frecuencia, y enfoques de inteligencia artificial.
+- **Advanced data processing:** We develop advanced techniques for analyzing movement signals from various modalities using Bayesian models, time-frequency analysis, and artificial intelligence approaches.
 
 {% include tags.html tags="computer vision, signal processing, AI, electronics" %}
-
-{% include section.html %}
-
-## Publications
-
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
